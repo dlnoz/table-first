@@ -1,0 +1,53 @@
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    gap: 30px;
+    background-color: rgb(4, 13, 88);
+
+    grid-template-areas: 
+        "a b b c"
+        "a d f g"
+        "a k j g"
+    ;
+}
+
+.card{
+    padding: 10px;
+    background-color: gray;
+}
+
+.card1{
+    grid-area: a;
+    background-color: rgb(4, 160, 7);
+}
+.card2{
+    grid-area: b;
+    background-color: rgb(4, 160, 7);
+}
+.card3{
+    grid-area: c;
+    background-color: red;
+}
+.card4{
+    grid-area: d;
+    background-color: rgb(175, 175, 4);
+}
+.card5{
+    grid-area: f;
+    background-color: red;
+}
+.card6{
+    grid-area: g;
+    background-color: green;
+}
+.card7{
+    grid-area: k;
+    background-color: red;
+}
+.card8{
+    grid-area: j;
+    background-color: rgb(175, 175, 4);
+}
